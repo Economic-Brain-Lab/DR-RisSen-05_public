@@ -1,0 +1,14 @@
+# add all files
+!*
+# remove data
+BHV/*
+EEG/*
+EYE/*
+LOG/*
+# remove hidden files
+_*
+.*
+# add gitignore
+!.gitignore
+# add environment files
+!*.yml

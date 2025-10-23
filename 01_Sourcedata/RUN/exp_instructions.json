@@ -1,0 +1,117 @@
+{
+  "MAIN":
+  [
+    "This is the main part of this task.\n",
+    
+    "Everything will be the same as the task you practiced in the last block,",
+    "however, you will not recieve feedback (the black dial) on the orientation trials.\n",
+
+    "Importantly, you will be playing with the 2200 points you earned previously.",
+    "At the end of the experiment these points will be traded in for a monetary reward \n",
+    
+    "Please let the researcher know that you are ready to go and wait for further instructions."
+  ],
+  "DEMO":
+  [
+    [
+      "Welcome to our experiment! This is the practice session, during which you will learn how to do the task.\n",
+
+      "In each trial, you will see a fuzzy circle with black and white stripes, displayed in the center of the screen.",
+      "The stripes of these circles will vary on each trial, some circles may have vertical stripes, while others may be horizontal.",
+      "The fuzzy circle will award you with some amount of points depending on the orientation of its stripes. \n",
+
+      "Different orientations are associated with different points.",
+      "Therefore, some orientations will bring you more points than others. In this part, you will learn to determine which orientations tend to give you more points.\n",
+
+      "If you decide to 'ACCEPT', you may gain or lose a certain number of points, if you decide 'REJECT' you will always get 0 points.",
+      "You must indicate your intention to 'ACCEPT' or 'REJECT' by using LEFT CLICK to select your response on screen.\n",
+
+      "Your task is to learn which stripes tend to earn you points and which tend to lose you points. \n",
+
+      "After you respond 'ACCEPT' or 'REJECT' you will be given feedback on the amount of points your selection was worth (Remember REJECT is always worth 0 points).\n",
+      
+      "This block will terminate when you select the option worth the most points 8 out of 10 times.\n",
+
+      "When you are ready, press the SPACE key to start with this part."
+    ],
+    [
+      "In this part, you will learn to estimate the orientation of 12 fuzzy circles using their stripes. \n",
+
+      "You will now see 12 fuzzy circles, displayed in a circle around the middle of the screen.",
+      "In this part, however, you will be prompted to reproduce the AVERAGE orientation of the stripes that were displayed.",
+      "It is important to use each fuzzy circle to accurately estimate the AVERAGE orientation of the stripes.",
+      "Your task is to determine the AVERAGE orientation of the stripes.\n",
+
+      "To report the AVERAGE orientation, you must rotate the WHITE dial using the mouse, when you are satisfied with your response press LEFT CLICK",
+      "After you respond you will receive feedback in the form of a BLACK dial which will represent the true AVERAGE of the task.\n",
+           
+      "This block will terminate when you are able closely estimate the true AVERAGE of the stripes.\n",
+
+      "When you are ready, press the SPACE key to start with this part."
+    ],
+    [
+      "In this part, you will learn to estimate the point value of 12 fuzzy circles using their stripes.\n",
+
+      "The displays will look similar to previous parts.\n",
+
+      "However, after seeing the 12 fuzzy circles you will be prompted to either 'ACCEPT' or 'REJECT'.",
+      "If you decide to 'ACCEPT', you may gain or lose a certain number of points, if you decide 'REJECT' you will always get 0 points.",
+      "This task is similar to the one you completed earlier, however, you must AVERAGE over the stripes to accurately estimate the point value. \n",
+
+      "You can stop this part and continue with the next part at any time by pressing the SPACE key. \n",
+
+      "Please only press SPACE when you feel comfortable with averaging the stimuli to discern point value. \n",
+
+      "When you are ready, press the SPACE key to start with this part."
+    ],
+    [
+      "In this part, you will practice the main task.\n",
+
+      "The displays will look very similar to the previous parts.\n",
+
+      "However, after seeing the 12 fuzzy circles you will be prompted to either 'ACCEPT' / 'REJECT' or report the average orientation of the stripes using a dial. \n",
+
+      "You can stop this part and continue with the next part at any time by pressing the SPACE key. \n",
+
+      "Please only press SPACE when you feel comfortable with responding with 'ACCEPT' / 'REJECT' or the orientation dial interchangeably.\n",
+
+      "When you are ready, press the SPACE key to start with this part."
+    ],
+    [
+      "In this part, you will train the main task.\n",
+
+      "All the details are the same as before, except that, on some trials, computing the average of the 12 fuzzy circles will be more difficult.",
+      "The difficulty has been set so that on some trials, it might be impossible to do so. Just try your best and give it a go.\n", 
+
+      "There is also a time limit on how long you have to respond on each trial. \n",
+
+      "You can stop this part at any time and continue with the next part by pressing the SPACE key. \n",
+
+      "Please press SPACE only when you are comfortable with responding in time. \n",
+
+      "When you are ready, press the SPACE key to start with this part."
+    ]
+  ],
+  "RE":
+  [ 
+    "Welcome to our cancellation task. \n",
+
+    "In this task you will be asked to 'cancel' via LEFT CLICK any upright T's that you see on the screen.",
+    "When you feel you have canceled all the T's on the screen press SPACE to move on to the next trial, you will be given feedback on your performance.\n",
+    
+    "Depending on your performance you will earn points which you can use to gamble with in the main task. \n",
+
+    "When you are ready, press the SPACE key to start."
+
+  ],
+  "PREGAZE":
+  [
+    "This is the last task before the main experiment. \n",
+
+    "In this task you will have one task where you will watch some fuzzy circles flash on screen, you will not be required to respond to them.", 
+    "Afterwards, you will then have some more practice with the main task with one change, if stop looking at the inner white circle.",
+    "the trial will stop and will restart. \n",
+
+    "When you are ready, press the SPACE key to start"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "expData":
+  [
+    [
+      "monitorName",
+      "Monitor name (e.g., DELL)",
+      ""
+    ],
+    [
+      "monitorRefreshRate",
+      "Monitor refresh rate in hertz (e.g., 60)",
+      ""
+    ],
+    [
+      "monitorNumber",
+      "Monitor number (e.g. 0) if there are several monitors.",
+      0
+    ],
+    [
+      "subjectNumber",
+      "Subject number (e.g., 1)",
+      "99999"
+    ],
+    [
+      "subjectAgeYears",
+      "Subject age in years (e.g., 45)",
+      "99999"
+    ],
+    [
+      "subjectVisualAcuity",
+      "Subject visual acuity",
+      ["normal", "corrected"]
+    ],
+    [
+      "subjectDominantHand",
+      "Subject dominant hand",
+      ["right", "left", "both"]
+    ],
+    [
+      "subjectGender",
+      "Subject gender",
+      ["female", "male", "nonbinary"]
+    ],
+    [
+      "trackEyes",
+      "Recording eye movements",
+      true
+    ],
+    [
+      "contingent",
+      "Gaze contingency",
+      true
+    ],
+    [
+      "sendTriggers",
+      "Recording EEG",
+      false
+    ],
+    [
+      "fullScreen",
+      "Full screen",
+      true
+    ],
+    [
+      "pointsEarned",
+      "Points Earned",
+      "0"
+    ],
+    [
+      "simulate",
+      "Simulate",
+      false
+    ],
+    [
+      "feedback",
+      "Present feedback",
+      true
+    ],
+    [
+      "deadline",
+      "Response deadline",
+      true
+    ]
+  ],
+  "portAddress":
+  [
+    [
+      "portAddress",
+      "Parallel port address (e.g., 0xD050)",
+      "0xD050"
+    ]
+  ],
+  "monData":
+  [
+    [
+      "monitorSizePix",
+      "Monitor size in pixels (e.g., 1920 x 1080)",
+      ""
+    ],
+    [
+      "monitorWidthCm",
+      "Monitor width in centimeters (e.g., 53)",
+      ""
+    ],
+    [
+      "monitorDistanceCm",
+      "Monitor distance in centimeters (e.g., 56)",
+      ""
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+# ignore all files and folders
+*
+# add exeptions
+!/00_Scripts
+!/01_Sourcedata
+!.gitignore
+!/*.md
+!/.txt

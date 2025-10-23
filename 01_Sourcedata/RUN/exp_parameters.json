@@ -1,0 +1,232 @@
+{
+  "DEMO":
+  {
+    "nTrialsPerBlock":
+    {
+      "value": 200,
+      "description": "The number of trials per block"
+    },
+    "nBlocksPerRun":
+    {
+      "value": 5,
+      "description": "The number of blocks per run"
+    } 
+  },
+  "PREGAZE":
+  {
+    "nTrialsPerBlock":
+    {
+      "value": 1000,
+      "description": "The number of trials per block"
+    },
+    "nBlocksPerRun":
+    {
+      "value": 1,
+      "description": "The number of blocks per run"
+    } 
+  },
+  "MAIN":
+  {
+    "nTrialsPerBlock":
+    {
+      "value": 50,
+      "description": "The number of trials per block"
+    },
+    "nBlocksPerRun":
+    {
+      "value": 20,
+      "description": "The number of blocks per run"
+    },
+    "totalPrize":
+    {
+      "value": 5,
+      "description": "The total payoff in addition to compensation, in AUD."
+    }
+  },
+  "STIM":
+  {
+    "stimSize":
+    {
+      "value": 4,
+      "description": "Diameter of the grating in dva prev 5"
+    },
+    "stimSF":
+    {
+      "value": 5,
+      "description": "Spatial frequency of the grating in cycles per grating"
+    },
+    "stimContrast":
+    {
+      "value": 1,
+      "description": "Contrast of the grating"
+    },
+    "stimMask":
+    {
+      "value": "gauss",
+      "description": "Mask of the grating defining the outer contour"
+    },
+    "stimMaskParams":
+    {
+      "value": "10",
+      "description": "Standard deviation of the gaussian mask in cycles"
+    },
+    "stimTexture":
+    {
+      "value": "sin",
+      "description": "Texture of the grating"
+    },
+    "stimOffset":
+    {
+      "value": 5,
+      "description": "Horizontal offset of the grating relative to fixation"
+    },
+    "stimRadius":
+    {
+      "value": 7.5,
+      "description": "The radius in dva from the centre [0,0] that the vertices of the polygon will be drawn; prev 9"
+    },
+    "stimEdges":
+    {
+      "value": 12,
+      "description": "The amount of edges to be drawn on the polygon to facilitate plotting gratings"
+    },
+    "stimLineLength":
+    {
+      "value": 6,
+      "description": "The length of the lines in the orientation task in dva."
+    },
+    "stimLineWidth":
+    {
+      "value": 5,
+      "description": "The width of the line in pixels"
+    },
+    "respLineColor":
+    {
+      "value": "white",
+      "description": "The colour of the response bar"
+    },
+    "feedLineColor":
+    {
+      "value": "black",
+      "description": "The colour of the feedback response bar"
+    },
+    "reproStim":
+    {
+      "value": 1.5,
+      "description": "The radius of the reproduction stim circle in dva"
+    },
+    "reproLineColour":
+    {
+      "value": "white",
+      "description": "The colour of the reproduction circle line"
+    },
+    "boundRadius":
+    {
+      "value": 10,
+      "description": "The radius in which the mouse is bounded in dva (for orientation reproduction responses)"
+    },
+    "leftPos":
+    {
+      "value": [-10,0],
+      "description": "Position of the left response area and text in dva wrt the center at [0,0]"
+    },
+    "clickSize":
+    {
+      "value": [10,10],
+      "description": "size of the click area [x,y] in dva"
+    },
+    "rightPos":
+    {
+      "value": [10,0],
+      "description": "Position of the left response area and text in dva wrt the center at [0,0]"
+    },
+    "buttonOpac":
+    {
+      "value": 0.5,
+      "description": "Opacity of the left and right response buttons when hovered over"
+    },
+    "buttonColour":
+    {
+      "value": "black",
+      "description": "colour of the lines surrounding the response button areas when hovered"
+    },
+    "fixSize":
+    {
+      "value": 0.75, 
+      "description": "Horizontal offset of the grating relative to fixation, prev 0.75"
+    },
+    "textHeight":
+    {
+      "value": 0.75,
+      "description": "The height of letters, in degrees of visual angle."
+    },
+    "textWidth":
+    {
+      "value": 25,
+      "description": "The width of one line of text, after which the new line starts."
+    },
+    "textPosition":
+    {
+      "value": [0, 0],
+      "description": "The x and y coordinates where the text should be presented, in degrees of visual angle."
+    }
+  },
+  "TRIAL": 
+  {
+    "stimOn":
+    {
+      "value": 1,
+      "description": "The period during which the stimulus is on, in seconds"
+    },
+    "stimOff":
+    {
+      "value": 0.050,
+      "description": "The period during which the stimulus is off, in seconds"
+    },
+    "responseDelay":
+    {
+      "value": 1.0,
+      "description": "The period during which participants cannot make a response, in seconds"
+    },
+    "responseDeadline":
+    {
+      "value": 6,
+      "description":"The period during which participants can respond, in seconds."
+    },
+    "feedbackDuration":
+    {
+      "value": 0.5,
+      "description": "The period during which response feedback is presented, in seconds."
+    },
+    "fixationDuration":
+    {
+      "value": 0.5,
+      "description": "The period during which only fixation is presented, in seconds."
+    },
+    "fixationRadius":
+    {
+      "value": 2.5,
+      "description": "The radius around fixation circle within which it is allowed for gaze to wander, in dva. "
+    },
+    "valueRef":
+    {
+      "value": [0],
+      "description": "The value of the reference stimulus, in pi radians"
+    },
+    "valueDiff":
+    {
+      "value": [-0.3, -0.15, 0, 0.15, 0.3],
+      "description": "The difference between the low and high value stimulus, in pi radians"
+    },
+    "thetaVars":
+    {
+      "value": [0.075, 0.3],
+      "description": "The standard deviation of the low and high risk stimuli, in pi radians"
+    },
+    "trialType":
+    {
+      "value": [0, 0, 0, 1],
+      "description": "The trial type, if it is value (0) or orientation repoduction (1), the following [0, 0, 0, 1] means 25% ori 75% value"
+    }
+  }
+}

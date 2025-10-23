@@ -1,0 +1,10 @@
+# add all files to versioning
+!*
+# ignore hidden files
+_*
+.*
+# ignore logs
+*.log
+*.out
+# add gitignore
+!.gitignore
