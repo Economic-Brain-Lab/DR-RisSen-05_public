@@ -4,5 +4,6 @@
 !/00_Scripts
 !/01_Sourcedata
 !.gitignore
+!.gitkeep
 !/*.md
 !/.txt

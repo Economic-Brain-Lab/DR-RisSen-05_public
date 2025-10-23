@@ -10,5 +10,6 @@ _*
 .*
 # add gitignore
 !.gitignore
+!.gitkeep
 # add environment files
 !*.yml
